@@ -1,5 +1,8 @@
 package com.vtxsystems.tlv;
 
+/**
+ * Class representing type-length-value object
+ */
 public class Tlv {
     public final static int TYPE_SIZE = Byte.BYTES;
     public final static int LENGTH_SIZE = Integer.BYTES;
